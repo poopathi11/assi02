@@ -59,15 +59,15 @@ public class SerializeDriver {
 		hMap3.put(project5, eList5);
 		hMap3.put(project6, eList6);
 
-		Thread1 obj1 = new Thread1(hMap1);
+		Thread01 obj1 = new Thread01(hMap1);
 		Producer p1 = new Producer(obj1);
 		Consumer c1 = new Consumer(obj1);
 		
-		Thread1 obj2 = new Thread1(hMap2);
+		Thread01 obj2 = new Thread01(hMap2);
 		Producer p2 = new Producer(obj2);
 		Consumer c2 = new Consumer(obj2);
 		
-		Thread1 obj3 = new Thread1(hMap3);
+		Thread01 obj3 = new Thread01(hMap3);
 		Producer p3 = new Producer(obj3);
 		Consumer c3 = new Consumer(obj3);
 
