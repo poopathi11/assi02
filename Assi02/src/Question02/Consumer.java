@@ -10,12 +10,12 @@ import java.util.Map.Entry;
 
 public class Consumer extends Thread{
 
-	Thread1 thread;
+	Thread01 thread;
 	FileInputStream fis;
 	ObjectInput ois;
 	HashMap<Project, ArrayList<Employee>> map;
 
-	Consumer(Thread1 thread) throws IOException
+	Consumer(Thread01 thread) throws IOException
 	{
 		this.thread=thread;
 		fis = new FileInputStream("File.txt");
