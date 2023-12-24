@@ -8,11 +8,11 @@ import java.util.Map.Entry;
 
 public class Producer extends Thread{
 
-	Thread1 thread;
+	Thread01 thread;
 	FileOutputStream fos;
 	ObjectOutputStream oos;
 	
-	Producer(Thread1 thread) throws IOException
+	Producer(Thread01 thread) throws IOException
 	{
 		this.thread=thread;
 		fos = new FileOutputStream("File.txt");
